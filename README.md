@@ -1,4 +1,7 @@
 # Context-attended-Graph-Convolution-Network
+
+[Paper](https://doi.org/10.1016/j.patrec.2020.02.006) | [TensorFlow](https://www.tensorflow.org/)
+
 Context-attended Graph Convolution Network for Remote Sensing Images
 
 
