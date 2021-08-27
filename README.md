@@ -4,6 +4,8 @@
 
 Context-attended Graph Convolution Network for Remote Sensing Images
 
+<img src=edge_att_r1.png alt="Proposed edge attention." width="700">
+
 
 This set of codes implementscontext-attended (edge attention + node attention) single-label classification/retrieval of images using graph convolution network (GCN). In this work, it is implemented for VHR airborne images using the <a href="http://bigearth.eu/assets/docs/multilabels.zip">single-label annotated UCMERCED dataset</a>  (source: <a href="https://ieeexplore.ieee.org/document/8089668/">Chaudhuri et al</a>) and PATTERNNET dataset, but it is a generic framework. The GCN used in this framework is inpired from <a href="https://ieeexplore.ieee.org/document/7979525/">Such et al</a>. The codes are written using the TensorFlow framework (version 1.2.1) in Python 2.7.12. The input needed for the code is adjacency matrices of the graph, node features and label set. 
 
@@ -34,6 +36,8 @@ The various useful files and their details are:
 
 <li> <b> src/multi_label.py</b> - to run the multi label comparison experiments with SVC, MLkNN and GaussianNB. Loads GCN’s train, test and val data and uses the same here.</li>
 </ol>
+
+<img src=node_att_r1.png alt="Existing node attention." width="700">
 
 The new_dataset.mat and features.mat files can be downloaded from this <a href="https://www.dropbox.com/sh/k9ugragg6fbej6n/AAD6g6lhZm4243g0plTKaPJza?dl=0&m="> Dropbox </a> link. 
 
