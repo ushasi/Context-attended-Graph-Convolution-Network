@@ -1,8 +1,8 @@
-# Context-attended-Graph-Convolution-Network
+# Attention Driven Graph Convolution Network for Remote Sensing Image Retrieval
 
-[Paper](https://doi.org/10.1016/j.patrec.2020.02.006) | [TensorFlow](https://www.tensorflow.org/)
+[Paper](https://ieeexplore.ieee.org/abstract/document/9526616) | [TensorFlow](https://www.tensorflow.org/)
 
-Context-attended Graph Convolution Network for Remote Sensing Images
+Edge Attention + Node Attention on Graph Convolution Network for Remote Sensing Images
 
 <img src=edge_att_r1.png alt="Proposed edge attention." width="700">
 
@@ -44,19 +44,20 @@ The new_dataset.mat and features.mat files can be downloaded from this <a href="
 
 ### Paper
 
-*    The paper is also available at: [Siamese graph convolutional network for content based remote sensing image retrieval](https://reader.elsevier.com/reader/sd/pii/S1077314219300578?token=FF18DF6BD33340CB07179AE964A960F224B8A29AC597C8D4875C71AF366407364D877984BA4E1BA4FF97548B3C83FB2A)
+*    The paper is also available at: [Attention-Driven Graph Convolution Network for Remote Sensing Image Retrieval](https://ieeexplore.ieee.org/abstract/document/9526616)
 
 *   Feel free to cite the author, if the work is any help to you:
 
 ```
-@article{chaudhuri2019siamese,
-  title={Siamese graph convolutional network for content based remote sensing image retrieval},
-  author={Chaudhuri, Ushasi and Banerjee, Biplab and Bhattacharya, Avik},
-  journal={Computer Vision and Image Understanding},
-  volume={184},
-  pages={22--30},
-  year={2019},
-  publisher={Elsevier}
+@ARTICLE{9526616,
+  author={Chaudhuri, Ushasi and Banerjee, Biplab and Bhattacharya, Avik and Datcu, Mihai},
+  journal={IEEE Geoscience and Remote Sensing Letters}, 
+  title={Attention-Driven Graph Convolution Network for Remote Sensing Image Retrieval}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-5},
+  doi={10.1109/LGRS.2021.3105448}
 }
 
 
